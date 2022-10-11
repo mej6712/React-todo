@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* Font */
+@font-face{font-family:'Noto Thin';font-style:normal;src:url(../src/fonts/noto/NotoSans-Thin.woff2) format("woff2"),url(../src/fonts/noto/NotoSans-Thin.woff) format("woff")}
+@font-face{font-family:'Noto Light';font-style:normal;src:url(../src/fonts/noto/NotoSans-Light.woff2) format("woff2"),url(../src/fonts/noto/NotoSans-Light.woff) format("woff")}
+@font-face{font-family:'Noto DemiLight';font-style:normal;src:url(../src/fonts/noto/NotoSans-DemiLight.woff2) format("woff2"),url(../src/fonts/noto/NotoSans-DemiLight.woff) format("woff")}
+@font-face{font-family:'Noto Regular';font-style:normal;src:url(../src/fonts/noto/NotoSans-Regular.woff2) format("woff2"),url(../src/fonts/noto/NotoSans-Regular.woff) format("woff")}
+@font-face{font-family:'Noto Medium';font-style:normal;src:url(../src/fonts/noto/NotoSans-Medium.woff2) format("woff2"),url(../src/fonts/noto/NotoSans-Medium.woff) format("woff")}
+@font-face{font-family:'Noto Bold';font-style:normal;src:url(../src/fonts/noto/NotoSans-Bold.woff2) format("woff2"),url(../src/fonts/noto/NotoSans-Bold.woff) format("woff")}
+@font-face{font-family:'Noto Black';font-style:normal;src:url(../src/fonts/noto/NotoSans-Black.woff2) format("woff2"),url(../src/fonts/noto/NotoSans-Black.woff) format("woff")}
+
+@font-face{font-family:'Dream Thin';font-style:normal;src:url(../src/fonts/dream/S-CoreDream-1Thin.woff2) format("woff2"),url(../src/fonts/dream/S-CoreDream-1Thin.woff) format("woff")}
+@font-face{font-family:'Dream ExtraLight';font-style:normal;src:url(../src/fonts/dream/S-CoreDream-2ExtraLight.woff2) format("woff2"),url(../src/fonts/dream/S-CoreDream-2ExtraLight.woff) format("woff")}
+@font-face{font-family:'Dream Light';font-style:normal;src:url(../src/fonts/dream/S-CoreDream-3Light.woff2) format("woff2"),url(../src/fonts/dream/S-CoreDream-3Light.woff) format("woff")}
+@font-face{font-family:'Dream Regular';font-style:normal;src:url(../src/fonts/dream/S-CoreDream-4Regular.woff2) format("woff2"),url(../src/fonts/dream/S-CoreDream-4Regular.woff) format("woff")}
+@font-face{font-family:'Dream Medium';font-style:normal;src:url(../src/fonts/dream/S-CoreDream-5Medium.woff2) format("woff2"),url(../src/fonts/dream/S-CoreDream-5Medium.woff) format("woff")}
+@font-face{font-family:'Dream Bold';font-style:normal;src:url(../src/fonts/dream/S-CoreDream-6Bold.woff2) format("woff2"),url(../src/fonts/dream/S-CoreDream-6Bold.woff) format("woff")}
+
+@font-face{font-family:'Gmarket Light';font-style:normal;src:url(../src/fonts/gmarket/Gmarket-Light.woff2) format("woff2"),url(../src/fonts/gmarket/Gmarket-Light.woff) format("woff")}
+@font-face{font-family:'Gmarket Medium';font-style:normal;src:url(../src/fonts/gmarket/Gmarket-Medium.woff2) format("woff2"),url(../src/fonts/gmarket/Gmarket-Medium.woff) format("woff")}
+@font-face{font-family:'Gmarket Bold';font-style:normal;src:url(../src/fonts/gmarket/Gmarket-Bold.woff2) format("woff2"),url(../src/fonts/gmarket/Gmarket-Bold.woff) format("woff")}
+
+@font-face{font-family:'Titil ExtraLight';font-style:normal;src:url(../src/fonts/titillium/TitilliumWeb-ExtraLight.woff2) format("woff2"),url(../src/fonts/titillium/TitilliumWeb-ExtraLight.woff) format("woff")}
+@font-face{font-family:'Titil Light';font-style:normal;src:url(../src/fonts/titillium/TitilliumWeb-Light.woff2) format("woff2"),url(../src/fonts/titillium/TitilliumWeb-Light.woff) format("woff")}
+@font-face{font-family:'Titil Regular';font-style:normal;src:url(../src/fonts/titillium/TitilliumWeb-Regular.woff2) format("woff2"),url(../src/fonts/titillium/TitilliumWeb-Regular.woff) format("woff")}
+@font-face{font-family:'Titil SemiBold';font-style:normal;src:url(../src/fonts/titillium/TitilliumWeb-SemiBold.woff2) format("woff2"),url(../src/fonts/titillium/TitilliumWeb-SemiBold.woff) format("woff")}
+@font-face{font-family:'Titil Bold';font-style:normal;src:url(../src/fonts/titillium/TitilliumWeb-Bold.woff2) format("woff2"),url(../src/fonts/titillium/TitilliumWeb-Bold.woff) format("woff")}
+@font-face{font-family:'Titil Black';font-style:normal;src:url(../src/fonts/titillium/TitilliumWeb-Black.woff2) format("woff2"),url(../src/fonts/titillium/TitilliumWeb-Black.woff) format("woff")}
+
+@font-face{font-family:'Mont ExtraLight';font-style:normal;src:url(../src/fonts/mont/Montserrat-ExtraLight.woff2) format("woff2"),url(../src/fonts/mont/Montserrat-ExtraLight.woff) format("woff")}
+@font-face{font-family:'Mont Light';font-style:normal;src:url(../src/fonts/mont/Montserrat-Light.woff2) format("woff2"),url(../src/fonts/mont/Montserrat-Light.woff) format("woff")}
+@font-face{font-family:'Mont Regular';font-style:normal;src:url(../src/fonts/mont/Montserrat-Regular.woff2) format("woff2"),url(../src/fonts/mont/Montserrat-Regular.woff) format("woff")}
+@font-face{font-family:'Mont Medium';font-style:normal;src:url(../src/fonts/mont/Montserrat-Medium.woff2) format("woff2"),url(../src/fonts/mont/Montserrat-Medium.woff) format("woff")}
+@font-face{font-family:'Mont SemiBold';font-style:normal;src:url(../src/fonts/mont/Montserrat-SemiBold.woff2) format("woff2"),url(../src/fonts/mont/Montserrat-SemiBold.woff) format("woff")}
+@font-face{font-family:'Mont Bold';font-style:normal;src:url(../src/fonts/mont/Montserrat-Bold.woff2) format("woff2"),url(../src/fonts/mont/Montserrat-Bold.woff) format("woff")}
+
+@font-face{font-family:'Arita ExtraLight';font-style:normal;src:url(../src/fonts/arita/Arita-buriHL.woff2) format("woff2"),url(../src/fonts/arita/Arita-buriHL.woff) format("woff")}
+@font-face{font-family:'Arita Light';font-style:normal;src:url(../src/fonts/arita/Arita-buriL.woff2) format("woff2"),url(../src/fonts/arita/Arita-buriL.woff) format("woff")}
+@font-face{font-family:'Arita Medium';font-style:normal;src:url(../src/fonts/arita/Arita-buriM.woff2) format("woff2"),url(../src/fonts/arita/Arita-buriM.woff) format("woff")}
+@font-face{font-family:'Arita SemiBold';font-style:normal;src:url(../src/fonts/arita/Arita-buriSB.woff2) format("woff2"),url(../src/fonts/arita/Arita-buriSB.woff) format("woff")}
+@font-face{font-family:'Arita Bold';font-style:normal;src:url(../src/fonts/arita/Arita-buriB.woff2) format("woff2"),url(../src/fonts/arita/Arita-buriB.woff) format("woff")}
+
+@font-face{font-family:'Pre Thin';font-style:normal;src:url(../src/fonts/pre/Pretendard-Thin.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-Thin.woff) format("woff")}
+@font-face{font-family:'Pre ExtraLight';font-style:normal;src:url(../src/fonts/pre/Pretendard-ExtraLight.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-ExtraLight.woff) format("woff")}
+@font-face{font-family:'Pre Light';font-style:normal;src:url(../src/fonts/pre/Pretendard-Light.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-Light.woff) format("woff")}
+@font-face{font-family:'Pre Regular';font-style:normal;src:url(../src/fonts/pre/Pretendard-Regular.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-Regular.woff) format("woff")}
+@font-face{font-family:'Pre Medium';font-style:normal;src:url(../src/fonts/pre/Pretendard-Medium.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-Medium.woff) format("woff")}
+@font-face{font-family:'Pre SemiBold';font-style:normal;src:url(../src/fonts/pre/Pretendard-SemiBold.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-SemiBold.woff) format("woff")}
+@font-face{font-family:'Pre Bold';font-style:normal;src:url(../src/fonts/pre/Pretendard-Bold.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-Bold.woff) format("woff")}
+@font-face{font-family:'Pre ExtraBold';font-style:normal;src:url(../src/fonts/pre/Pretendard-ExtraBold.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-ExtraBold.woff) format("woff")}
+@font-face{font-family:'Pre Black';font-style:normal;src:url(../src/fonts/pre/Pretendard-Black.woff2) format("woff2"),url(../src/fonts/pre/Pretendard-Black.woff) format("woff")}
+
+@font-face{font-family:'Cen Regular';font-style:normal;src:url(../src/fonts/century/Century-Regular.woff2) format("woff2"),url(../src/fonts/century/Century-Regular.woff) format("woff")}
+@font-face{font-family:'Cen Italic';font-style:normal;src:url(../src/fonts/century/Century-Italic.woff2) format("woff2"),url(../src/fonts/century/Century-Italic.woff) format("woff")}
+@font-face{font-family:'Cen Bold';font-style:normal;src:url(../src/fonts/century/Century-Bold.woff2) format("woff2"),url(../src/fonts/century/Century-Bold.woff2) format("woff")}
+@font-face{font-family:'Cen Bold-Italic';font-style:normal;src:url(../src/fonts/century/Century-Bold-Italic.woff2) format("woff2"),url(../src/fonts/century/Century-Bold-Italic.woff) format("woff")}
+
+@font-face{font-family:'Klavika Medium';font-style:normal;src:url(../src/fonts/klavika/Klavika-Medium-Italic.woff2) format("woff2"),url(../src/fonts/klavika/Klavika-Medium-Italic.woff) format("woff")}
+
+@font-face{font-family:'Moon Medium';font-style:normal;src:url(../src/fonts/moon/MoonFlower-M.woff2) format("woff2"),url(../src/fonts/moon/MoonFlower-M.woff) format("woff")}
