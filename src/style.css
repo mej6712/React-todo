@@ -1,8 +1,21 @@
-#root{background-color: #FFF8EA; width: 100%; height: 100vh; display: table;}
+#root{background-color: #EDE4E0; width: 100%; height: 100vh; display: table;}
 .todo-wrap{display: table-cell; vertical-align: middle;}
 .todo-inner{max-width: 800px; margin: 0 auto; border-radius: 5px; background-color: white; padding: 20px;}
 .todo-header{border-bottom: 1px solid #eaeaea;}
 .todo-header h1{text-align: center; font-family: "Noto Bold"; font-size: 30px; color: #333; padding-bottom: 10px;}
 .todo-content{margin-top: 20px;}
-.todo-input{width: calc(100% - 60px); border-bottom: 1px solid #cdcdcd; outline: 0; padding: 10px 20px; font-family: "Noto Regular"; margin: 0 auto; float: left;}
+.todo-input{width: calc(100% - 60px); border-bottom: 1px solid #eaeaea; outline: 0; padding: 10px 20px; font-family: "Noto Regular"; margin: 0 auto; float: left;}
 .todo-regist{width: 50px; height: 45px; text-align: center; background-color: #594545; color: white; font-family: "Noto Regular"; float: right;}
+.todo-list{margin-top: 20px;}
+.todo-list li.no-item{border: 1px solid #cdcdcd; text-align: center; font-family: "Noto Bold"; padding: 15px 0;}
+.todo-list li input[type="checkbox"]{display: none;}
+.todo-list li input[type="checkbox"] + label{display: block; width: 25px; height: 25px; border-radius: 50%; border: 2px solid #cdcdcd; cursor: pointer; float: left; margin-right: 10px;}
+.todo-list li input[type="checkbox"]:checked + label{background: #594545 url(../src/images/check.png) no-repeat center center; border: 2px solid #594545;}
+.todo-list li p{float: left; width: calc(100% - 100px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.todo-list li p span{font-size: 16px; line-height: 25px; font-family: "Noto Regular";}
+.todo-list li .item-remote{float: right;}
+.todo-list li button{width: 25px; height: 25px; display: block; text-indent: -9999px; float: left; margin-right: 10px;}
+.todo-list li button:last-child{margin-right: 0;}
+.todo-list li .modify-btn{background: url(../src/images/pencil.png) no-repeat center center;}
+.todo-list li .delete-btn{background: url(../src/images/delete.png) no-repeat center center;}
+
